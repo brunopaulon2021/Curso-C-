@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace 
 {
-    public interface PrecoFinal
+    public interface Program
     {
         static void Main (string[] args){
             LastPrice("chocolate", 30);
@@ -23,11 +23,11 @@ namespace
     }
 }
 
-/* 1- Crie um programa em C# que utilize uma Função chamada “ PrecoFinal ” que
-ajuste em 25% a mais do valor inicial dos produtos:
+/* 1- Create a program in C# that uses a Function called “ PrecoFinal ” that
+adjust by 25% more than the initial value of the products:
 ● Chocolate: 30
-● Refrigerante: 50
-● Bolo: 45
-● Sorvete: 60
-● Pão: 15
-exiba o resultado na tela*/
+● Soda: 50
+● Cake: 45
+● Ice cream: 60
+● Bread: 15
+display the result on the screen */
